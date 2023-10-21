@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Adden";
+  src: url("font/AddenRegular.ttf");
+}
+
+body {
+  background-color: #FFDFDF;
+}
+
+.container {
+  height: 400px;
+  width: 590px;
+
+  margin: auto;
+  margin-top: 90px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+.heading {
+  height: 150px;
+  width: auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #F875AA;
+  padding-top: 5px;
+}
+
+#text {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Adden";
+  margin-top: 45px;
+}
+
+.keys {
+  height: 250px;
+  width: 590px;
+  padding: 0;
+}
+
+.key {
+  height: 250px;
+  width: 50px;
+  display: inline-block;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  margin: 0;
+}
+
+.keyBlack {
+  background-color: black;
+}
+
+.keyWhite {
+  background-color: white;
+}
+
+/* New class for temporary gray background when clicked */
+.active {
+  background-color: gray;
+}
